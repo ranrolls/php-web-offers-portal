@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fields>
+
+		<field
+			name="id"
+			type="hidden"
+			default="0"
+			required="true"
+			readonly="true"/>							
+															
+		<field
+			id="subject"
+			name="subject"
+			type="text"
+			required="true"
+			label="Subject"
+			description="subject_Desc"
+			class="inputbox"
+			size="40"/>						
+								
+						
+		<field
+			id="published"
+			name="published"
+			type="list"
+			class="inputbox"
+			default="1"
+			size="1"
+			label="JField_Published_Label"
+			description="JField_Published_Desc">
+			<option
+				value="1">
+				JOption_Published</option>
+			<option
+				value="0">
+				JOption_UnPublished</option>
+			<option
+				value="-1">
+				JOption_Archived</option>
+			<option
+				value="-2">
+				JOption_Trashed</option>
+		</field>
+                          
+		<field
+			id="created_time"
+			name="created_time"
+			type="calendar"
+			required="false"
+			label="Creation Time"
+			description="created_time_Desc"
+			class="inputbox"
+			size="16"
+			format="%Y-%m-%d %H-%M-%S"/>			
+							
+							
+		<field
+			name="checked_out_time"
+			type="hidden"
+			filter="unset"/>						  
+							
+		<field
+			name="checked_out"
+			type="hidden"
+			filter="unset"/>						  
+							
+		<field
+			id="publish_up"
+			name="publish_up"
+			type="calendar"
+			required="false"
+			label="Publish_up"
+			description="publish_up_Desc"
+			class="inputbox"
+			size="16"
+			format="%Y-%m-%d %H-%M-%S"/>			
+							
+							
+		<field
+			id="publish_down"
+			name="publish_down"
+			type="calendar"
+			required="false"
+			label="Publish_down"
+			description="publish_down_Desc"
+			class="inputbox"
+			size="16"
+			format="%Y-%m-%d %H-%M-%S"/>			
+							
+															
+		<field
+			id="user_id"
+			name="user_id"
+			type="text"
+			required="false"
+			label="User_id"
+			description="user_id_Desc"
+			class="inputbox"
+			size="40"/>						
+								
+														
+		<field
+			id="subject"
+			name="subject"
+			type="text"
+			required="false"
+			label="Subject"
+			description="subject_Desc"
+			class="inputbox"
+			size="40"/>						
+								
+						
+		<field
+			id="body"
+			name="body"
+			type="editor"
+			label="Body"
+			description="body_Desc"
+			class="inputbox"
+			buttons="readmore,pagebreak"/>
+															
+		<field
+			id="created_user_id"
+			name="created_user_id"
+			type="text"
+			required="false"
+			label="Created_user_id"
+			description="created_user_id_Desc"
+			class="inputbox"
+			size="40"/>						
+								
+														
+		<field
+			id="modified_user_id"
+			name="modified_user_id"
+			type="text"
+			required="false"
+			label="Modified_user_id"
+			description="modified_user_id_Desc"
+			class="inputbox"
+			size="40"/>						
+								
+						
+		<field
+			id="modified_time"
+			name="modified_time"
+			type="calendar"
+			required="false"
+			label="Modified_time"
+			description="modified_time_Desc"
+			class="inputbox"
+			size="16"
+			format="%Y-%m-%d %H-%M-%S"/>			
+							
+							
+		<field
+			id="review_time"
+			name="review_time"
+			type="calendar"
+			required="false"
+			label="Review_time"
+			description="review_time_Desc"
+			class="inputbox"
+			size="16"
+			format="%Y-%m-%d %H-%M-%S"/>			
+							
+									
+	</fields>	
+		
+</form>	

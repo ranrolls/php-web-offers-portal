@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<extensions>
+		
+            <extension>
+                <name>note</name>
+                <listview>notes</listview>
+                <display>subject</display>
+                <field>catid</field>
+                <statefield>state</statefield>
+                <primary>id</primary>
+                <table>#__user_notes</table>
+            </extension>
+
+	</extensions>	
+</root>

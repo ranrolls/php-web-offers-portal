@@ -1,0 +1,39 @@
+<?php 
+/**
+ * @package		Joomla.Site
+ * @subpackage	com_membercheckin/Companylikesdetail
+ * @copyright	Copyright (C) 2005 - 2012 Open Source Matters, Inc. All rights reserved.
+ * @license		GNU General Public License version 2 or later; see LICENSE.txt
+ * @since		1.6
+ * @Author		Sudhish Kumar
+ */
+ 
+// No direct access to this file
+defined('_JEXEC') or die('Restricted access');
+// import Joomla view library
+jimport('joomla.application.component.view');
+jimport('joomla.application.component.model' );
+class MembercheckinViewAgentdetails extends JViewLegacy
+{
+	/**
+	 * MembercheckinViewCompanylikesdetail view display method
+	 * @return void
+	 */
+	public function display($tpl = null)
+	{
+		JFactory::getApplication()->set('jquery',true);
+		$this->user = &JFactory::getUser();	
+		$this->app  = &JFactory::getApplication('site');
+		$document   = JFactory::getDocument();
+		$document->addStyleSheet(JURI::root()."components/com_membercheckin/assets/css/memberchk.css");
+				 
+		$db		    = &JFactory::getDBO();
+		$doc 	    = JFactory::getDocument();
+		$model 	    = $this->getModel();
+		// Getting all Company detail with there likes
+		 //$this->agentDetail= $model->AgentDetails();
+		parent::display($tpl);
+	}
+	
+}
+?>

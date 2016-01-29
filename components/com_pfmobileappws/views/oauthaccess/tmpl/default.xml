@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Oauthaccess">
+		<help
+			key = "Oauthaccess_DESC"
+		/>
+		<message>
+			<![CDATA[Oauthaccess_DESC]]>
+		</message>
+	</layout>
+	<state>
+	<name>Oauthaccess Layout</name>
+		<description>Oauthaccess Layout_DESC</description>	
+		<params>
+		</params>
+	</state>
+	
+	<!-- Fields for Joomla > 1.5. -->
+	<fields name="request">
+		<fieldset name="request"
+			addfieldpath="/administrator/components/com_pfmobileappws/models/fields"
+		>
+			<field name="sample"
+				type="pfmobileappwsoauthaccess"
+				description="Oauthaccess_SELECT_DESC"
+				label="Select Oauthaccess"
+				required="false"
+			/>
+		</fieldset>
+	</fields>	
+	<!-- Add fields to the parameters object for the layout. -->
+	<fields name="params">
+	</fields>
+</metadata>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Products">
+		<help
+			key = "Products_DESC"
+		/>
+		<message>
+			<![CDATA[Products_DESC]]>
+		</message>
+	</layout>
+	<state>
+	<name>Products Layout</name>
+		<description>Products Layout_DESC</description>	
+		<params>
+		</params>
+	</state>
+	
+	<!-- Fields for Joomla > 1.5. -->
+	<fields name="request">
+		<fieldset name="request"
+			addfieldpath="/administrator/components/com_pfmobileappws/models/fields"
+		>
+			<field name="sample"
+				type="pfmobileappwsproducts"
+				description="Products_SELECT_DESC"
+				label="Select Products"
+				required="false"
+			/>
+		</fieldset>
+	</fields>	
+	<!-- Add fields to the parameters object for the layout. -->
+	<fields name="params">
+	</fields>
+</metadata>

@@ -1,0 +1,175 @@
+#jsMenu, #jsMenu {
+    font-size: 12px;
+    margin-bottom: 25px;
+    padding: 0px 0 10px;
+    position: relative;
+    text-shadow: 0 0 0 transparent;
+    z-index: 9;
+	border-bottom: 1px solid #eee;
+
+}
+#jsMenu .jsMenuLft {
+    height: 29px;
+    margin-right: 30px;
+}
+#jsMenu .jsMenuRgt {
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+#jsMenu .jsIr {
+    background-color: #E8E8D8;
+    border-radius: 5px 5px 5px 5px;
+    display: block;
+    height: 19px;
+    text-indent: -9999px;
+    width: 19px;
+}
+#jsMenu .jsIr:hover {
+    background-color: #f6f6f6!important;
+border: 1px solid #EEE;
+}
+}
+#jsMenu .jsMenuBar {
+    border-radius: 5px 5px 0 0;
+    display: block;
+    float: left;
+    margin-left: 0;
+    margin-right: -20px;
+}
+#jsMenu .jsMenuBar ul li {
+    display: inline;
+    float: left;
+}
+#jsMenu .jsMenuBar a {
+    background: url("../images/joomforest/menu-hover.png") repeat scroll -20px 35px transparent;
+    border-radius: 0 0 0 0;
+    border-top: 2px solid #23324C;
+    color: #666;
+    font-size: 14px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    line-height: 28px;
+    padding: 4px 10px 3px 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+	display:block
+}
+#jsMenu .jsMenuBar a:hover {
+	text-decoration: none;
+	
+	background: url("../images/bg-cpanel-head.png") repeat scroll 0 0 #1D8344 !important;color:#fff
+}
+#community-wrap #jsMenu .jsMenuBar li, #jsMenu .jsMenuBar li {
+    border-bottom: medium none !important;
+    border-left: 1px solid #E6E6E6;
+    border-right: 1px solid #E6E6E6;
+    display: inline;
+    float: left;
+    margin: 2px 3px 0 0;
+    padding: 0;
+
+}
+
+#jsMenu .jsMenuBar li a.active {
+    background: url("../images/bg-cpanel-head.png") repeat scroll 0 0 #1D8344 !important;color:#fff
+}
+#jsMenu .jsMenuBar li a.hover{
+    background: #fff;color:#666
+}
+#jsMenu .jsMenuBar li ul {
+   background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #DDDDDD;
+    display: none;
+    height: auto;
+    position: absolute;
+    z-index: 15;
+	width:220px;
+	margin-left:-1px;
+}
+#jsMenu .jsMenuBar li ul li a{font-size: 13px;line-height: 20px;height: auto;background: #fff!important;border-right:none !important;}
+#jsMenu .jsMenuBar li ul a {
+    border:none!important;
+    border-radius: 0 0 0 0;
+    font-size: 13px !important;
+    font-weight: 100;
+    padding: 5px;
+}
+.cResetList{margin-left:0!important; }
+#jsMenu .jsMenuBar li ul li a:hover{background:url("../images/bg-cpanel-head.png") repeat #1D8344 !important;}
+#jsMenu .jsMenuBar li:hover a:hover, #jsMenu .jsMenuBar li ul a:hover, #jsMenu .jsMenuBar li ul a:focus {
+    background: none repeat scroll 0 0 #fff;
+}
+#jsMenu .jsMenuBar li li {
+    margin-right: 0;
+    width: 100%;
+	border:none !important;
+}
+#jsMenu .jsMenuBar li:hover ul {
+    display: block !important;
+}
+#jsMenu .jsMenuBar li:hover a {
+    background: none repeat scroll 0 0 #fff;
+}
+#jsMenu .jsIr.isActive {
+    
+}
+#jsMenu .jsGlobalsNot {
+    background: url("../images/noti.png") no-repeat scroll 3px 3px transparent !important;
+}
+#jsMenu .jsFriendsNot {
+    background: url("../images/friend.png") no-repeat scroll 2px 0 transparent !important;
+}
+#jsMenu + #miniheader {
+    margin-top: -15px;
+}
+#jsMenu .jsMesaggeNot {
+    background: url("../images/mail.png") no-repeat scroll 3px 3px transparent !important;
+}
+#jsMenu .jsLogOff a {
+    display: inline-block;
+    float: right;
+    margin-right: 8px;
+}
+#jsMenu .jsMenuIcon {
+   display: block;
+float: left;
+height: 29px;
+left: 5px;
+position: relative;
+top: 11px;
+z-index: 2;
+}
+#jsMenu .jsMenuIcon div {
+    display: inline-block;
+    float: left;
+    margin-left: 8px;
+    position: relative;
+}
+#jsMenu .jsMenuIcon span {
+    background-color: #EA0000;
+    border-bottom: 1px solid #111111;
+    border-radius: 3px 3px 3px 3px;
+    color: #FFFFFF;
+    display: block;
+    font-weight: bold;
+    height: 14px;
+    left: 6px;
+    line-height: 14px;
+    min-width: 10px;
+    padding: 0 2px;
+    position: absolute;
+    text-align: center;
+    text-indent: 0;
+    top: -6px;
+}
+
+.jsLogOff a {
+    border-left: 1px solid #DDDDDD !important;
+    display: block;
+    font-size: 14px !important;
+    margin-left: 5px;
+}
+.AddHead{color:#666!important;width:100% !important;background: #eee;}
+.AddHead h1{padding: 5px 14px !important;font-size:24px !important; font-weight:normal;}
+.searchChekin{}

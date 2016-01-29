@@ -1,0 +1,178 @@
+/* Author: Marcin Banaszek */
+
+/* GLOBAL
+-------------------------------------------------------------------------------------------------------------------*/
+
+* {
+	background: none;
+	border: 0;
+	line-height: 1.5em;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #fff;
+	color: #999;
+	font-family: "PT Sans", Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+
+p {
+	margin: 1em 0;
+}
+
+img {
+	max-width: 100%;
+}
+
+img.round {
+	border-radius: 3px;
+}
+
+hr {
+	background: url(../images/ribbon.png) no-repeat center center;
+	height: 20px;
+}
+
+.center {
+	text-align: center;
+}
+
+.right {
+	text-align: right;
+}
+
+header,
+footer,
+article,
+address,
+aside,
+section {
+	display: block;
+}
+
+article {
+	padding-bottom: 30px;
+}
+
+address {
+	font-style: normal;
+}
+
+blockquote {
+	background: url(../images/blockquote-left.png) no-repeat left top, url(../images/blockquote-right.png) no-repeat right top;
+	color: #2fbbb2;
+	display: block;
+	font-family: "PT Serif", Georgia, "Times New Roman", Times, serif;
+	font-size: 24px;
+	font-style: italic;
+	margin: 0 20px;
+	padding: 0 50px;
+	text-align: center;
+}
+
+/* HEADERS
+-------------------------------------------------------------------------------------------------------------------*/
+
+h1,h2,h3,h4,h5,h6 {
+	font-weight: normal;
+	margin: 1em 0;
+}
+
+h1 {
+	color: #222;
+	font-family: "PT Serif", Georgia, "Times New Roman", Times, serif;
+	font-size: 214%;
+	text-transform: uppercase;
+}
+
+h2 {
+	color: #222;
+	font-family: "PT Serif", Georgia, "Times New Roman", Times, serif;
+	font-size: 143%;
+	text-transform: uppercase;
+}
+
+h3 {
+	color: #2fbbb2;
+	font-size: 128%;
+}
+
+h4 {
+	color: #2fbbb2;
+	font-size: 114%;
+}
+
+h5 {
+	color: #2fbbb2;
+	font-size: 100%;
+}
+
+h6 {
+	color: #ccc;
+	font-size: 100%;
+}
+
+/* LINKS
+-------------------------------------------------------------------------------------------------------------------*/
+
+a {
+	color: #2fbbb2;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+/* TABLES
+-------------------------------------------------------------------------------------------------------------------*/
+
+table {
+	border-collapse: collapse;
+	margin: 1em 0;
+	width: 100%;
+}
+
+th, td {
+	border: 1px solid #ddd;
+	padding: 10px;
+}
+
+th {
+	background: #222;
+	color: #fff;
+	text-align: left;
+}
+
+tr.odd td {
+	background: #f4f4f4;
+}
+
+/* LISTS
+-------------------------------------------------------------------------------------------------------------------*/
+
+ol, ul, dl {
+	margin: 1em 0 1em 20px;
+}
+
+ol li {
+	list-style: decimal;
+	list-style-position: outside;
+	margin-left: 20px;
+}
+
+ul li {
+	background:url(../images/bullet.gif) no-repeat left 6px;
+	padding-left: 20px;
+}
+
+dt {
+	color: #222;
+}
+
+dd {
+	margin: 0 0 20px 20px;
+}

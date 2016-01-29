@@ -1,0 +1,82 @@
+/* Author: Marcin Banaszek */
+
+.row:before, .row:after {
+	content: "";
+	display: table;
+	line-height: 0;
+}
+
+.row:after {
+	clear: both;
+}
+
+.row {
+	margin-bottom: 20px;
+	width:960px;
+}
+
+.span1, .span2, .span3, .span4, .span5, .span6, .span7, .span8, .span9, .span10, .span11, .span12 {
+	float: left;
+	margin: 0 10px;
+}
+
+.span1 {width: 60px;}
+.span2 {width: 140px;}
+.span3 {width: 220px;}
+.span4 {width: 300px;}
+.span5 {width: 380px;}
+.span6 {width: 460px;}
+.span7 {width: 540px;}
+.span8 {width: 620px;}
+.span9 {width: 700px;}
+.span10 {width: 780px;}
+.span11 {width: 860px;}
+.span12 {width: 940px;}
+
+.wrapper {
+	margin: 0 auto;
+	position: relative;
+	width: 960px;
+}
+
+@media (min-width: 1220px) {
+	.row {margin-bottom: 30px; width:1200px;}
+	.span1, .span2, .span3, .span4, .span5, .span6, .span7, .span8, .span9, .span10, .span11, .span12 {margin: 0 15px;}
+	.span1 {width: 70px;}
+	.span2 {width: 170px;}
+	.span3 {width: 270px;}
+	.span4 {width: 370px;}
+	.span5 {width: 470px;}
+	.span6 {width: 570px;}
+	.span7 {width: 670px;}
+	.span8 {width: 770px;}
+	.span9 {width: 870px;}
+	.span10 {width: 970px;}
+	.span11 {width: 1070px;}
+	.span12 {width: 1170px;}
+	.wrapper {width: 1200px;}
+}
+
+@media (max-width: 979px) {
+	.row {margin-bottom: 10px; width:720px;}
+	.span1, .span2, .span3, .span4, .span5, .span6, .span7, .span8, .span9, .span10, .span11, .span12 {margin: 0 5px;}
+	.span1 {width: 50px;}
+	.span2 {width: 110px;}
+	.span3 {width: 170px;}
+	.span4 {width: 230px;}
+	.span5 {width: 290px;}
+	.span6 {width: 350px;}
+	.span7 {width: 410px;}
+	.span8 {width: 470px;}
+	.span9 {width: 530px;}
+	.span10 {width: 590px;}
+	.span11 {width: 650px;}
+	.span12 {width: 710px;}
+	.wrapper {width: 720px;}
+}
+
+@media (max-width: 767px) {
+	.row {margin-bottom: 20px; width:100%;}
+	.span1, .span2, .span3, .span4, .span5, .span6, .span7, .span8, .span9, .span10, .span11, .span12 { display: block; float: none; margin: 10px; width: auto;}
+	.wrapper {width: 100%;}
+}

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Tasks">
+		<help
+			key = "Tasks_DESC"
+		/>
+		<message>
+			<![CDATA[Tasks_DESC]]>
+		</message>
+	</layout>
+	<state>
+	<name>Tasks Layout</name>
+		<description>Tasks Layout_DESC</description>	
+		<params>
+		</params>
+	</state>
+	
+	<!-- Fields for Joomla > 1.5. -->
+	<fields name="request">
+		<fieldset name="request"
+			addfieldpath="/administrator/components/com_pfmobileappws/models/fields"
+		>
+			<field name="sample"
+				type="pfmobileappwstasks"
+				description="Tasks_SELECT_DESC"
+				label="Select Tasks"
+				required="false"
+			/>
+		</fieldset>
+	</fields>	
+	<!-- Add fields to the parameters object for the layout. -->
+	<fields name="params">
+	</fields>
+</metadata>

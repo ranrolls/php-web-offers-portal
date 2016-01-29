@@ -1,0 +1,261 @@
+* {
+    border: medium none;
+    margin: 0;
+    outline: medium none;
+    padding: 0;
+    text-decoration: none;
+}
+.clear {
+    clear: both;
+}
+/*#content #yt_component{padding:0 !important}*/
+.maintb{width:100%;float:left;border-bottom:1px dashed #ddd;margin:10px 0}
+.fieldsetleft{width:25%;float:left;line-height:27px}
+.Sub {
+    /*border-color: #EEEEEE;
+    border-style: solid;
+    border-width: 1px 5px 8px 1px;*/
+    float: left;
+    font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
+    font-size: 20px;
+    padding: 1.5%;
+    width: 96.5%;
+}
+.fieldset {
+   /* float: left;
+    width: 690px;*/
+	   float: right;
+    width: 75%;
+}
+.FieldName {
+    color: #666666;
+    margin: 0 1%;
+}
+.FieldName span {
+    color: red;
+}
+.lable,.badge{background-color:#eee !important;border-radius:0 !important}
+.Sub label {
+    float: left;
+    margin: 1%;
+    width: 90%;
+}
+.Sub input[type="text"], .Sub input[type="file"], .Sub textarea ,input[type="password"]{
+    background: none repeat scroll 0 0 #FFFFFF !important;
+    border: 1px solid #D9D9D7 !important;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset !important;
+    color: #555555 !important;
+    float: left !important;
+    font-size: 18px !important;
+    margin: 1px 0 10px!important;
+    padding: 10px !important;
+    width: 96%;
+}
+.Sub input:focus {
+    border: 1px solid #444444;
+}
+.Sub textarea {
+    height: 150px;
+    resize: none;
+}
+.Sub textarea:focus {
+    border: 1px solid #444444;
+}
+.Sub input[type="submit"] {
+    background: none repeat scroll 0 0 #5BCCF0;
+    border: 0 solid #D9D9D7;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.1) inset;
+    color: #FFFFFF;
+    float: left;
+    font-size: 80%;
+    margin: 1px 0;
+    padding: 10px;
+    text-transform: uppercase;
+    width: 20%;
+	font-size:20px;
+}
+.Sub label.error {
+    color: red;
+    display: none !important;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+.Sub input.error {
+    border: 1px solid red !important;
+    box-shadow: 0 1px 2px rgba(255, 0, 0, 0.2) inset !important;
+}
+.Sub #subdomainName {
+    width:50%;
+}
+.domainnm{font-size: 16px;float: left;padding-top: 10px;}
+#main h1 {
+    margin: 0 0 10px !important;
+}
+.Sub div.label {
+    border-color: #EEEEEE;
+    border-style: solid;
+    border-width: 0 2px 2px;
+    float: left;
+    margin: 0 1% 1%;
+    padding: 5px 0 7px;
+    /*width: 615px;*/
+	height: 37px;
+}
+.Sub span.Themes {
+    float: left;
+    margin: 5px 10px;
+}
+.Sub span.Themes label {
+    float: left;
+    margin-right: 0;
+    width: auto;
+}
+.Sub input[type="radio"] {
+    float: left;
+    margin-right: 10px;
+    margin-top: 7px;
+}
+.Sub .theme {
+}
+.Sub .theme .FieldName {
+    /*border-bottom: 2px solid #EEEEEE;*/
+    padding-bottom: 10px;
+}
+.fieldset1 {
+    background: none repeat scroll 0 0 #eee;
+	float: left;
+    width: 73%;
+	padding:0 10px;
+	margin-bottom:20px;
+}
+.fieldset1 .ADd {
+    background: url("../images/plus.png") no-repeat scroll left center transparent;
+    cursor: pointer;
+    float: left;
+    padding-left: 25px;
+}
+.addme{
+    float: left;
+    margin-left: 10px;
+}
+.addme .ADd{
+	background: url("../images/plus.png") no-repeat scroll left 2px transparent;
+    cursor: pointer;
+    float: left;
+    padding-left: 20px;
+}
+.addMoreQuestion {
+    float: left;
+    width: 80%;
+}
+.addquestion{width:100% !important}
+#addMoreQuestion {
+    float: left;
+    width: 100%;
+}
+.nextQuestionAdded {
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    float: right;
+    margin-bottom: 20px;
+    margin-left: -11px;
+    padding: 20px 10px;
+    position: relative;
+    width: 73%;
+    z-index: 555555;
+}
+.nextQuestionAdded .remove {
+    background: url("../images/quick_pop_close.png") no-repeat scroll 0 0 transparent;
+    cursor: pointer;
+    height: 21px;
+    position: absolute;
+    right: 10px;
+    text-indent: -999999px;
+    top: 10px;
+    width: 20px;
+}
+.errorSuccessMsg{
+    color: red;
+    font-size: 15px;
+	margin-top: -10px !important;
+}
+.joomlathemejs {
+    background-color: #CCCCCC;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 -1px 8px 2px rgba(0, 0, 0, 0.3) inset, 0 -1px 0 0 rgba(255, 255, 255, 0.6) inset, 0 2px rgba(0, 0, 0, 0.38), 0 0 #BBBBBB, 0 3px 2px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    float: left;
+    height: 25px;
+    line-height: 25px;
+    margin: 0px 5px 0 0;
+    overflow: hidden;
+    position: relative;
+    text-indent: 100%;
+    white-space: nowrap;
+    width: 38px;
+}
+.joomlathemejs.blue {
+    background-color:#0083E8;
+}
+.joomlathemejs.sky {
+    background-color:#3DBAE0;
+}
+.joomlathemejs.gray {
+    background-color:#B4B3B2;
+}
+.joomlathemejs.oranges {
+    background-color:#FF6C00;
+}
+.joomlathemejs.green {
+    background-color:#8dab19;
+}
+
+.joomlathemejs.black {
+    background-color:#444;
+}
+.joomlathemejs.blueface {
+    background-color:#f0f0f0;
+}
+.joomlathemejs.bubble {
+    background-color:#fff;
+}
+.joomlathemejs.active {
+    box-shadow: 0 2px 5px 2px rgba(0, 0, 0, 0.4) inset;
+    margin-top: 2px;
+}
+.title { color: #F47320; font-size: 25px; font-weight: bold; height: 13px; line-height: 13px; margin: 0; padding: 20px 0; }
+.aLt {font-size: 1.3em !important; margin: 2% auto 0 !important; width: 92% !important;}
+form.cmxform { background-color: #FFFFFF; /*background-image: url("/dashboard/images/box_bg.png");*/ background-repeat: repeat-x;
+    /* border: 1px solid #D1D1D1; */ border-radius: 8px 8px 8px 8px; margin: 2px !important; padding: 0 !important; width: 100%; }
+.row {/* border-top: 1px solid #D1D1D1; */ float: left; margin: 5px -8px 0 !important; /* padding: 0 10%; */ width: 50.5%;}
+.row .label {color: #555555; float: left; font-size: 1.1em; margin: 10px 0; width: 100%;}
+.row .content { float: left; width: 100%; }
+.row .content input,input[type="password"] {padding:4px 6px!important; border: 1px solid #D1D1D1 !important;float: left !important; height: 30px !important; width: 90% !important;margin-left:8px !important;font-size:20px !important;}
+textarea{ border: 1px solid #D1D1D1;float: left; height: 50px; width: 72.5% !important;margin-left:8px;font-size:20px;}
+.crm-marker{color:red;}
+input[type="text"].error, input[type="password"].error, input[type="file"].error, select.error{border:1px solid red !important;}
+
+.row .content select { border: 1px solid #D1D1D1;float: left; height: 40px; width: 93% !important;margin-left:8px;font-size:1em;}
+#companyID.error{border: 1px solid red !important;float: left; height: 40px; width: 74.5% !important;margin-left:8px;font-size:1em;}
+label.error  {display:none !important;}
+
+.row1 { /* border-top: 1px solid #D1D1D1; */ float: left;margin: 5px 0; /* padding: 0 10%; */ width: 80%;}
+.row1 .label { color: #555555; float: left; font-size: 1.1em;  margin: 10px 0;   width: 100%; }
+.row1 .content { float: left;  width: 100%; }
+.row1 .content span { float: left;  width: 20%;}
+.row1 .content span input { border: 1px solid #D1D1D1; float: left;}
+.row2 { /* border-top: 1px solid #D1D1D1; */ float: left; margin: 5px 0; /* padding: 1% 10%; */ width: 80%;}
+.row2 input {  background: none repeat scroll 0 0 #1D8344 !important; border: 1px solid #666666 !important; color: #fff !important; font-family: arial; font-size: 14px;  font-weight: bold; height: 38px; text-transform: uppercase;  width: 90px;}
+.FieldName{font-size:20px !important;padding:10px 0px;}
+.required{margin-right:5px;}
+.radioform{width: 45%;float: left;background: #7DDEA2;vertical-align: middle;padding: 15px;border: 1px solid #ccc;margin: 0 10px 15px 0;}
+.radioformselect{width: 45%;float: left;background: #1D8344;vertical-align: middle;padding: 15px;border: 1px solid #ccc;margin: -4px 10px 15px 0;color:#fff !important}
+.radioformon{width: 45%;float: left;background: #f6fff9;vertical-align: middle;padding: 15px;border: 1px solid #ccc;margin: 0 10px 15px 0;}
+.radioform,.radioformon input[type="radio"]{margin-top:-4px;}
+.edit-value{height:50px;}
+.companyinfo{width:97%;padding:2px;background:#eee;float:left;font-size:20px;}
+.form-submit{margin-left:0px !important;}
+.error_msg{color: red;font-size: 14px !important;padding: 9px;display: block;line-height: 0px;}
+#companyLogo{margin-bottom:10px}
